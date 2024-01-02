@@ -21,11 +21,11 @@ You can refine the count by cleaning the string prior to splitting or validating
 End the program.
 ## PROGRAM:
 ```
-## DEVELOPED BY: Keerthika N
-## REFERENCE NUMBER: 21000385
+## DEVELOPED BY: SRIKAAVYAA T
+## REFERENCE NUMBER: 23013589
 num_words =0
-file1 = open("text.txt", "r")
-with open('text.txt','r') as file1:
+file1 = open("nature.txt", "r")
+with open('nature.txt','r') as file1:
     for i in file1:
         word =i.split()
         num_words += len(word)
